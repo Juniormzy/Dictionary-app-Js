@@ -1,0 +1,53 @@
+.serachResult{
+	visibility: hidden;
+}
+section{
+	position: absolute;
+top: 50%;
+left: 40%;
+transform: translate(0, -50%);
+background-color:  #4abdac;
+border-radius: 10px;
+min-width: 400px;
+transition: 0.6s;
+}
+.btn1,h6{
+	align-items: center;
+	margin:20px;
+}
+#error{
+	color: white;
+}
+.serachResult{
+	margin: 10px;
+}
+h3{
+	font-size: 15px;
+	color: white;
+}
+.btn3{
+	background-color: #FC4445;
+	color: white;
+	border: none;
+}
+.audio{
+	float: right;
+	padding-right: 5px;
+	color: white;
+}
+.rWord{
+	width: 300px;
+
+}
+.deff{
+	margin-left: 30px;
+	
+}
+.partofspeech{
+	margin: 40px;
+}
+@media only screen and (max-width: 600px){
+	section{
+		left: 1%;
+	}
+}
